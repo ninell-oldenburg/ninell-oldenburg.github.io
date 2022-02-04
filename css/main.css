@@ -14,7 +14,7 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #0E1178;
+    color: #175e2a;
 }
 a:hover {
     text-decoration: underline;
@@ -85,7 +85,7 @@ ul.posts li {
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+  background-color: #e6f5ea;
 }
 
 /* Caption text */
