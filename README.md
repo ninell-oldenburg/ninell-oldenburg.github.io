@@ -6,4 +6,4 @@ My research interest lies in ai ethics with a focus on NLP. before this, i was a
 
 Other than that, i like writing, [effective altruism](https://www.effectivealtruism.org/), & running.
 
-And here's a picture of my face: ![Ninell's face](images/nell.jpeg)
+And here's a picture of my face: ![Ninell's face](images/nell.png)
