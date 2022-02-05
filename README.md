@@ -1,6 +1,6 @@
 # Hi, I'm Ninell
 
-I'm a 1st year's Master's student in IT & Cognition at the University of Copenhagen, Denmark. 
+I'm a 1st-year Master's student in IT & Cognition at the University of Copenhagen, Denmark. 
 
 My research interest lies in AI ethics & (hopefully soon) AI Alignment with a focus on language processing. I think, the world can be a better place with the help of Python.
 
