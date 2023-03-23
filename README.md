@@ -4,4 +4,4 @@ I'm a 2nd-year Master's student in IT & Cognition at the University of Copenhage
 
 Other than that, I like live music, running, & maps.
 
-And here's a picture of my face:
+And here's a low-resolution picture of my face:
