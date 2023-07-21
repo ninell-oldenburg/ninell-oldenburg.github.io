@@ -1,6 +1,6 @@
 # Hi, I'm Ninell
 
-I'm a 2nd-year Master's student in IT & Cognition at the University of Copenhagen, Denmark and currently writing my thesis on norm learning in artificial multi-agent environments. Broadly, I'm interested in what cooperation is and how to use it to make AI go well.
+I'm a research fellow at PIBBSS, Principles of Intelligent Behavior in Biological and Social Systems in Prague/Oxford. Broadly, I'm interested in what cooperation and collective intelligence is and how to use it to make A.I. go well.
 
 Other than that, I like live music, running, & maps.
 
