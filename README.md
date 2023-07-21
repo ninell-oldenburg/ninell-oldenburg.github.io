@@ -6,6 +6,6 @@ My research interest lies in what cooperation and collective intelligence is and
 
 Other than that, I like live music, running, & maps.
 
-If you want to collaborate, discuss, or go to a gig together, please don't hesitate to reach out.
+If you want to collaborate, discuss, or go to a gig together, please reach out!
 
 And here's a picture of my face:
