@@ -1,8 +1,8 @@
 # Hi, I'm Ninell
 
-I'm a research fellow at [PIBBSS](https://www.pibbss.ai/), Principles of Intelligent Behavior in Biological and Social Systems, where I model social norm inference and sustenance. Before that, I did my Master's in IT & Cognition in Copenhagen and a Bachelor's in Computational Linguistics in Potsdam, Germany. 
+I'm an incoming PhD student in the Philosophy of AI at the University of Copenhagen. Before that, I did my Master's there in IT & Cognition and a Bachelor's in Computational Linguistics in Potsdam, Germany. 
 
-I'm interested in cooperation and collective intelligence, how language and communication play into that, and how to use all of that to make AI go well. I think building models that are interpretable from scratch is interesting and promising for that direction. For this, I like to look at findings from ecology, game theory, and philosophy. 
+I'm interested in using human language and language models to learn about human cooperation and decision-making, and how to use all of that to make AI go well. For this, I like to look at findings from linguistics, ecology, game theory, and philosophy. 
 
 Other than that, I like live music, running, & maps.
 
