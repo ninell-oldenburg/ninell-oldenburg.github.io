@@ -1,8 +1,6 @@
 # Hi, I'm Ninell
 
-I'm an incoming PhD student in the Philosophy of AI at the University of Copenhagen where I will look at the (dis)similarities between human brains and artificial systems. Before that, I did my Master's in IT & Cognition also at Copenhagen and a Bachelor's in Computational Linguistics in Potsdam, Germany. 
-
-I'm broadly interested in using human language and language models to learn about human cooperation and decision-making, and how to use all of that to make AI go well. For this, I like to look at findings from linguistics, ecology, neuroscience, game theory, and philosophy. 
+I'm a PhD student at the Centre for Philosophy of AI at the University of Copenhagen. I'm interested in many things AI & Language. For example, it'd be great to find out how to use artificial models of language best to learn about human cognition, i.e. decision-making, language use, or cooperation. This taps into many related fields such as explainability, neuro-symbolic computing, and bio-inspired AI.
 
 Other than that, I like live music, running, & maps.
 
