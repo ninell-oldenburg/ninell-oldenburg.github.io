@@ -27,18 +27,6 @@ nav ul li a {
   text-decoration: none;
 }
 
-.container {
-  width: 50%;
-  margin: 2em auto;
-  text-align: left;
-  padding: 1em;
-  border-radius: 10px;
-}
-
-.image-container {
-  margin: 2em 0;
-}
-
 /* Dropdown content */
 .dropdown-content {
   display: none;
@@ -64,6 +52,18 @@ nav ul li a {
   text-align: center;
   background-color: inherit;
   cursor: pointer;
+}
+
+.container {
+  width: 50%;
+  margin: 2em auto;
+  text-align: left;
+  padding: 1em;
+  border-radius: 10px;
+}
+
+.image-container {
+  margin: 2em 0;
 }
 
 footer {
