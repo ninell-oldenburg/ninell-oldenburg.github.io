@@ -58,10 +58,10 @@ footer ul li {
   margin: 0 1em;
 }
 
-footer ul li a {
+/* footer ul li a {
   color: rgb(23, 161, 152);
   text-decoration: none;
-}
+} */
 
 /* Link styles */
 a, a:visited, a:active {
