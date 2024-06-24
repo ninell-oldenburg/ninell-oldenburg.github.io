@@ -1,0 +1,237 @@
+body {
+    background-color: rgb(1, 56, 194);
+}
+
+h1 {
+    position: absolute;
+    top: 100px;
+    left: 1050px;
+    color: aliceblue;
+    font-size: 80px;
+}
+
+.bullshit {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 40%; /* Percentage of its containing element */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners */
+}
+.cows {
+    position: absolute;
+    top: 350px;
+    left: 150px;
+    width: 20%; /* Percentage of its containing element */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners */
+}
+.nuance {
+    position: absolute;
+    top: 800px;
+    left: 800px;
+    width: 50%; /* Percentage of its containing element */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners */
+}
+.artifacts {
+    position: absolute;
+    top: 1200px;
+    left: 50px;
+    width: 45%; /* Percentage of its containing element */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners */
+}
+.tasra {
+    position: absolute;
+    top: 2600px;
+    left: 700px;
+    width: 50%; /* Percentage of its containing element */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners */
+}    
+.truthfulai {
+    position: absolute;
+    top: 2300px;
+    left: 150px;
+    width: 40%; /* Percentage of its containing element */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners */
+}
+.conciousness {
+    position: absolute;
+    top: 2800px;
+    left: 200px;
+    width: 40%; /* Percentage of its containing element */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners */
+}
+.tom {
+    position: relative;
+    top: 3000px;
+    left: 700px;
+    width: 40%; /* Percentage of its containing element */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners */
+}
+.sparks {
+    position: absolute;
+    top: 3900px;
+    left: 275px;
+    width: 65%; /* Percentage of its containing element */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners */
+}
+.powerseeking {
+    position: absolute;
+    top: 5000px;
+    left: 400px;
+    width: 55%; /* Percentage of its containing element */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners */
+}
+.concrete {
+    position: absolute;
+    top: 5300px;
+    left: 200px;
+    width: 40%; /* Percentage of its containing element */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners */
+}
+.politics {
+    position: absolute;
+    top: 6900px;
+    left: 750px;
+    width: 40%; /* Percentage of its containing element */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners */
+}
+
+.guaranteedsafeai {
+    position: relative;
+    top: 400px;
+    left: -450px;
+    width: 20%; /* Percentage of its containing element */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners */
+}
+.compatible {
+    position: relative;
+    top: 500px;
+    left: 800px;
+    width: 50%; /* Percentage of its containing element */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners */
+}
+.alignment {
+    position: relative;
+    top: 80px;
+    left: 800px;
+    width: 10%; /* Percentage of its containing element */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners */
+}
+.alignmentproblem {
+    position: relative;
+    top: 50px;
+    left: 100px;
+    width: 20%; /* Percentage of its containing element */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners */
+}
+.alignmentdl {
+    position: relative;
+    top: 400px;
+    left: -450px;
+    width: 20%; /* Percentage of its containing element */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners */
+}
+.debates {
+    position: relative;
+    top: 80px;
+    left: 800px;
+    width: 50%; /* Percentage of its containing element */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners */
+}
+.deepproblems {
+    position: relative;
+    top: 400px;
+    left: -450px;
+    width: 20%; /* Percentage of its containing element */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners */
+}
+.harder {
+    position: relative;
+    top: 80px;
+    left: 800px;
+    width: 50%; /* Percentage of its containing element */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners */
+}
+.intelligence {
+    position: relative;
+    top: 400px;
+    left: -450px;
+    width: 20%; /* Percentage of its containing element */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners */
+}
+.machinetom {
+    position: relative;
+    top: 80px;
+    left: 800px;
+    width: 50%; /* Percentage of its containing element */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners */
+}
+.moralrobots {
+    position: relative;
+    top: 400px;
+    left: -450px;
+    width: 20%; /* Percentage of its containing element */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners */
+}
+.parrots {
+    position: relative;
+    top: 80px;
+    left: 800px;
+    width: 50%; /* Percentage of its containing element */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners */
+}
+.roleplay {
+    position: relative;
+    top: 80px;
+    left: 800px;
+    width: 50%; /* Percentage of its containing element */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners */
+}
+.smart {
+    position: relative;
+    top: 400px;
+    left: -450px;
+    width: 20%; /* Percentage of its containing element */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners */
+}
+.understanding {
+    position: relative;
+    top: 400px;
+    left: -450px;
+    width: 20%; /* Percentage of its containing element */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners */
+}
+.zombies {
+    position: relative;
+    top: 80px;
+    left: 800px;
+    width: 50%; /* Percentage of its containing element */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners */
+}
