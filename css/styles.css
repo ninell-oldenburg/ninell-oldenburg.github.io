@@ -1,12 +1,11 @@
-body, .container, nav, footer {
-  background-color: #FFDA00 /* rgb(253, 223, 0); /* Example color (khaki) */
-}
+/* Base Styles - style.css */
 body {
-  font-family: 'Times New Roman'; /* sans-serif; */
+  font-family: 'Times New Roman';
   font-size: 20px;
   margin: 0;
   padding: 0;
 }
+
 nav {
   padding: 1em 0;
 }
@@ -19,8 +18,9 @@ nav ul {
 }
 
 nav ul li {
-  display: inline;
+  display: inline-block;
   margin: 0 1em;
+  position: relative;
 }
 
 nav ul li a {
@@ -30,7 +30,7 @@ nav ul li a {
 .container {
   width: 50%;
   margin: 2em auto;
-  text-align: left;  /* Align text to the left */
+  text-align: left;
   padding: 1em;
   border-radius: 10px;
 }
@@ -58,16 +58,29 @@ footer ul li {
   margin: 0 1em;
 }
 
-/* footer ul li a {
-  color: rgb(23, 161, 152);
-  text-decoration: none;
-} */
-
-/* Link styles */
-a, a:visited, a:active {
-  color: #1689A0; /* Normal link color */
+/* Dropdown content */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  z-index: 1;
+  top: 100%;
+  left: 0;
 }
 
-a:hover {
-  color: #ea1010; /* Hover link color */
+.dropdown-content a {
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown {
+  display: inline-block;
+  text-align: center;
+  background-color: inherit;
+  cursor: pointer;
 }

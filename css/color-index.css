@@ -1,0 +1,12 @@
+/* Color Styles for Page 1 */
+body, .container, nav, footer, .dropdown-content a:hover {
+  background-color: #FFDA00; /* Example color (khaki) */
+}
+
+a, a:visited, a:active {
+  color: #1689A0; /* Normal link color */
+}
+
+a:hover, .dropdown:hover {
+  color: #ea1010; /* Hover link color */
+}
