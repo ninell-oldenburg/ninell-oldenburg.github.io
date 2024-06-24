@@ -39,25 +39,6 @@ nav ul li a {
   margin: 2em 0;
 }
 
-footer {
-  padding: 1em 0;
-  text-align: center;
-  position: fixed;
-  width: 100%;
-  bottom: 0;
-}
-
-footer ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-footer ul li {
-  display: inline;
-  margin: 0 1em;
-}
-
 /* Dropdown content */
 .dropdown-content {
   display: none;
@@ -83,4 +64,23 @@ footer ul li {
   text-align: center;
   background-color: inherit;
   cursor: pointer;
+}
+
+footer {
+  padding: 1em 0;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer ul li {
+  display: inline;
+  margin: 0 1em;
 }
