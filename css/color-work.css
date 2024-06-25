@@ -1,0 +1,87 @@
+/* Color Styles for Page 2 */
+body, .container, footer {
+  background-color: rgb(42, 168, 14);
+  color: #060500;
+}
+
+.container ul {
+  list-style-type: none; /* Remove default list styles */
+  padding-left: 0; /* Remove default padding */
+}
+
+.container ul li {
+  margin-bottom: 10px; /* Add space between list items */
+  padding: 10px; /* Add padding to list items */
+  background-color: #FFFFFF; /* White background for list items */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.container ul li a {
+  color: #086c17; /* Link color */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Make links behave like buttons */
+  padding: 5px 10px; /* Padding for links */
+  border: 1px solid #086c17; /* Border for links */
+  border-radius: 3px; /* Rounded corners for links */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+.container ul li a:hover {
+  background-color: #086c17; /* Hover background color */
+  color: #FFFFFF; /* Hover text color */
+}
+
+.btn {
+  display: inline-block;
+  font-size: inherit;
+  color: #FFDA00;
+  background-color: rgb(4, 136, 68);
+  border: none;
+  padding: 2px 4px; /* Adding padding for button-like appearance */
+  border-radius: 5px; /* Rounded corners */
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.btn:hover {
+  background-color: #0056b3; /* Change hover color */
+}
+
+/* Additional CSS styles for list items */
+.container ul:not(.dropdown-content) li {
+  font-size: 17px;
+  margin-bottom: 10px; /* Add space between list items */
+  padding: 10px; /* Add padding to list items */
+  margin: 10px 40px;
+  background-color: rgba(84, 198, 58, 0.742); /* Darker background for list items */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.container ul:not(.dropdown-content) li a {
+  color: #FFDA00; /* Link color */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Make links behave like buttons */
+  padding: 2px 6px; /* Padding for links */
+  margin: 1px;
+  border: 1px solid #086c17; /* Border for links */
+  border-radius: 3px; /* Rounded corners for links */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+.container ul:not(.dropdown-content) li a:hover {
+  background-color: #0056b3; /* Hover background color */
+  color: #ea1010; /* Hover text color */
+}
+
+a, a:visited, a:active {
+  color: #FFDA00; /* Normal link color */
+  text-decoration: none;
+}
+
+a:hover, .dropdown:hover {
+  color: #ea1010; /* Hover link color */
+  text-decoration: none;
+}
