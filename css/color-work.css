@@ -1,6 +1,6 @@
 /* Color Styles for Page 2 */
 body, .container, footer {
-  background-color: #058844;
+  background-color: #29A80E;
   color: #060500;
 }
 
@@ -64,7 +64,7 @@ nav ul li:hover > ul {
   margin-bottom: 10px; /* Add space between list items */
   padding: 10px; /* Add padding to list items */
   margin: 10px 40px;
-  background-color: #0f934f; /* Darker background for list items */
+  background-color: #4BBE31; /* Darker background for list items */
   border-radius: 5px; /* Rounded corners */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow */
 }
