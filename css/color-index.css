@@ -5,8 +5,10 @@ body, .container, nav, footer, .dropdown-content a:hover {
 
 a, a:visited, a:active {
   color: #1689A0; /* Normal link color */
+  text-decoration: none;
 }
 
 a:hover, .dropdown:hover {
   color: #ea1010; /* Hover link color */
+  text-decoration: none;
 }
