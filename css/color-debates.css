@@ -98,9 +98,41 @@ h1 {
     height: auto; /* Maintain aspect ratio */
     border-radius: 10px; /* Rounded corners */
 }
-.politics {
+.debates {
     position: absolute;
     top: 6900px;
+    left: 800px;
+    width: 50%; /* Percentage of its containing element */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners */
+}
+.deepproblems {
+    position: absolute;
+    top: 9000px;
+    left: 50px;
+    width: 50%; /* Percentage of its containing element */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners */
+}
+.harder {
+    position: absolute;
+    top: 10000px;
+    left: 500px;
+    width: 50%; /* Percentage of its containing element */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners */
+}
+.parrots {
+    position: absolute;
+    top: 12000px;
+    left: 300px;
+    width: 50%; /* Percentage of its containing element */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners */
+}
+.politics {
+    position: absolute;
+    top: 16000px;
     left: 750px;
     width: 40%; /* Percentage of its containing element */
     height: auto; /* Maintain aspect ratio */
@@ -147,30 +179,6 @@ h1 {
     height: auto; /* Maintain aspect ratio */
     border-radius: 10px; /* Rounded corners */
 }
-.debates {
-    position: relative;
-    top: 80px;
-    left: 800px;
-    width: 50%; /* Percentage of its containing element */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 10px; /* Rounded corners */
-}
-.deepproblems {
-    position: relative;
-    top: 400px;
-    left: -450px;
-    width: 20%; /* Percentage of its containing element */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 10px; /* Rounded corners */
-}
-.harder {
-    position: relative;
-    top: 80px;
-    left: 800px;
-    width: 50%; /* Percentage of its containing element */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 10px; /* Rounded corners */
-}
 .intelligence {
     position: relative;
     top: 400px;
@@ -192,14 +200,6 @@ h1 {
     top: 400px;
     left: -450px;
     width: 20%; /* Percentage of its containing element */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 10px; /* Rounded corners */
-}
-.parrots {
-    position: relative;
-    top: 80px;
-    left: 800px;
-    width: 50%; /* Percentage of its containing element */
     height: auto; /* Maintain aspect ratio */
     border-radius: 10px; /* Rounded corners */
 }
