@@ -18,7 +18,9 @@ nav ul {
 }
 
 nav ul li {
-  display: inline-block;
+  display: flex;
+  justify-content: space-between; 
+  flex-wrap: wrap; 
   margin: 0 1em;
   position: relative;
 }
@@ -81,6 +83,8 @@ footer ul {
 }
 
 footer ul li {
-  display: inline;
+  display: flex;
+  justify-content: space-between; 
+  flex-wrap: wrap; 
   margin: 0 1em;
 }
