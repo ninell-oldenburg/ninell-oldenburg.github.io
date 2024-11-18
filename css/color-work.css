@@ -3,21 +3,15 @@ body, .container, footer {
   background-color: #29A80E;
   color: #060500;
   display: block;
-  justify-content: space-between; 
-  flex-wrap: wrap; 
 }
 
 /* Adjustments for the navigation menu */
 nav ul ul li {
   display: block;
-  justify-content: space-between; 
-  flex-wrap: wrap; 
 }
 
 nav ul li:hover > ul {
   display: block;
-  justify-content: space-between; 
-  flex-wrap: wrap; 
 }
 
 .container ul {
