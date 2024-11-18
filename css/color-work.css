@@ -22,10 +22,12 @@ nav ul li:hover > ul {
 
 .container ul {
   list-style-type: none; /* Remove default list styles */
+  flex: 1 1 auto;
   padding-left: 0; /* Remove default padding */
 }
 
 .container ul li {
+  flex: 1 1 auto;
   margin-bottom: 10px; /* Add space between list items */
   padding: 10px; /* Add padding to list items */
   background-color: #FFFFFF; /* White background for list items */
@@ -34,6 +36,7 @@ nav ul li:hover > ul {
 }
 
 .container ul li a {
+  flex: 1 1 auto;
   color: #086c17; /* Link color */
   text-decoration: none; /* Remove underline */
   display: inline-block; /* Make links behave like buttons */
@@ -49,8 +52,9 @@ nav ul li:hover > ul {
 }
 
 .btn {
-  display: inline-block;
+  display: flex;
   font-size: inherit;
+  flex: 1 1 auto; 
   color: #FFDA00;
   background-color: #169a56;
   border: none;
