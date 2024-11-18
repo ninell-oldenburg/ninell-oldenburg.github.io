@@ -94,3 +94,55 @@ a:hover, .dropdown:hover {
   color: #ea1010; /* Hover link color */
   text-decoration: none;
 }
+
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+  .container {
+    width: 90%; /* Make the container take more space on smaller screens */
+    margin: 1em auto; /* Ensure it's centered */
+    padding: 1em;
+  }
+
+  .btn {
+    width: 100%; /* Make the light green button take the full width */
+    padding: 10px; /* Adjust padding for mobile size */
+    font-size: 16px; /* Optional: Adjust font size for mobile */
+  }
+
+  .container ul li {
+    margin: 10px 0; /* Adjust margin to prevent excessive space between items */
+    padding: 10px;
+  }
+
+  .container ul li a {
+    padding: 10px 20px; /* Adjust padding for mobile view */
+  }
+
+  footer ul {
+    display: inline-flex;
+    justify-content: center; /* Ensure footer items are aligned horizontally */
+    padding: 0;
+    margin: 0;
+  }
+
+  footer ul li {
+    margin: 0 1em; /* Ensure footer items have spacing */
+  }
+}
+
+@media (max-width: 480px) {
+  .btn {
+    width: 100%; /* Ensure the button spans the full width on very small screens */
+    padding: 12px; /* Optional: Increase padding to make button larger on small screens */
+    font-size: 18px; /* Optional: Increase font size for readability */
+  }
+
+  .container {
+    width: 100%; /* Use the full width of the screen for containers */
+    padding: 0.5em; /* Reduce padding for small screens */
+  }
+
+  footer {
+    padding: 0.5em 0;
+  }
+}
