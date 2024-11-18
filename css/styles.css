@@ -15,11 +15,12 @@ nav ul {
   padding: 0;
   margin: 0;
   text-align: center;
+  display: flex; /* Use flexbox to align items horizontally */
+  justify-content: center; /* Center the navigation items */
 }
 
 nav ul li {
-  display: inline-block;
-  margin: 0 1em;
+  margin: 0 1em; /* Add some space between items */
   position: relative;
 }
 
@@ -87,14 +88,17 @@ footer ul li {
 
 /* Responsive Styles for Mobile */
 @media (max-width: 768px) {
-  /* Make sure the navigation items are displayed next to each other (horizontally) */
+  /* Center the navigation items and display them inline */
   nav ul {
-    display: inline-flex;
+    display: flex; /* Ensure the items stay in a row */
+    justify-content: center; /* Center the items horizontally */
+    padding: 0;
+    margin: 0;
   }
 
   nav ul li {
-    display: inline-flex; /* Ensure list items stay on the same row */
-    margin: 0.5em 0.5em; /* Add some space around list items */
+    display: inline-flex; /* Keep list items inline */
+    margin: 0.5em; /* Add spacing around items */
   }
 
   /* Make container width 90% on smaller screens */
@@ -117,5 +121,16 @@ footer ul li {
   /* Adjust the dropdown for mobile screens */
   .dropdown-content {
     min-width: 120px; /* Make dropdown smaller */
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 100%; /* Use the full width of the screen for containers */
+    padding: 0.5em; /* Reduce padding for small screens */
+  }
+
+  footer {
+    padding: 0.5em 0;
   }
 }
