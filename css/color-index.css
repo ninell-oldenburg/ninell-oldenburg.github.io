@@ -4,11 +4,15 @@ body, .container, nav, footer, .dropdown-content a:hover {
 }
 
 nav ul ul li {
-  display: block;
+  display: flex;
+  justify-content: space-between; 
+  flex-wrap: wrap; 
 }
 
 nav ul li:hover > ul {
-  display: block;
+  display: flex;
+  justify-content: space-between; 
+  flex-wrap: wrap; 
 }
 
 a, a:visited, a:active {
