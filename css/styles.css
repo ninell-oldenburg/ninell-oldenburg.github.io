@@ -90,7 +90,6 @@ footer ul li {
   /* Make sure the navigation items are displayed next to each other (horizontally) */
   nav ul {
     display: inline-flex;
-    justify-content: center;
   }
 
   nav ul li {
