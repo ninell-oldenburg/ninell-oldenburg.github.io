@@ -91,12 +91,11 @@ footer ul li {
   nav ul {
     display: inline-flex;
     justify-content: center;
-    flex-wrap: nowrap; /* Prevent wrapping */
   }
 
   nav ul li {
     display: inline-flex; /* Ensure list items stay on the same row */
-    margin: 0.5em 0; /* Add some space around list items */
+    margin: 0.5em 0.5; /* Add some space around list items */
   }
 
   /* Make container width 90% on smaller screens */
