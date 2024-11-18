@@ -5,14 +5,14 @@ body, .container, nav, footer, .dropdown-content a:hover {
 
 nav ul ul li {
   display: flex;
-  justify-content: space-between; 
-  flex-wrap: wrap; 
+  justify-content: center;  /* Center nested items */
+  flex-wrap: wrap;
 }
 
 nav ul li:hover > ul {
   display: flex;
-  justify-content: space-between; 
-  flex-wrap: wrap; 
+  justify-content: center;  /* Center dropdown items */
+  flex-wrap: wrap;
 }
 
 a, a:visited, a:active {

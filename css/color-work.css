@@ -5,13 +5,16 @@ body, .container, footer {
   display: block;
 }
 
-/* Adjustments for the navigation menu */
 nav ul ul li {
-  display: block;
+  display: flex;
+  justify-content: center;  /* Center nested items */
+  flex-wrap: wrap;
 }
 
 nav ul li:hover > ul {
-  display: block;
+  display: flex;
+  justify-content: center;  /* Center dropdown items */
+  flex-wrap: wrap;
 }
 
 .container ul {
