@@ -6,15 +6,11 @@ body, .container, footer {
 }
 
 nav ul ul li {
-  display: flex;
-  justify-content: center;  /* Center nested items */
-  flex-wrap: wrap;
+  display: block;
 }
 
 nav ul li:hover > ul {
-  display: flex;
-  justify-content: center;  /* Center dropdown items */
-  flex-wrap: wrap;
+  display: block;
 }
 
 .container ul {
@@ -46,7 +42,7 @@ nav ul li:hover > ul {
 }
 
 .btn {
-  display: block;
+  display: inline-block;
   font-size: inherit;
   color: #FFDA00;
   background-color: #169a56;
