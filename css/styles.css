@@ -121,27 +121,3 @@ footer ul li {
     min-width: 120px; /* Make dropdown smaller */
   }
 }
-
-/* Extra-small screens (below 480px) */
-@media (max-width: 480px) {
-  body {
-    font-size: 16px; /* Further reduce font size on very small screens */
-  }
-
-  /* Adjust container width for very small screens */
-  .container {
-    width: 100%;
-    margin: 0;
-    padding: 0.5em;
-  }
-
-  /* Adjust footer for very small screens */
-  footer {
-    padding: 0.5em 0;
-  }
-
-  /* Adjust dropdown content for smaller screens */
-  .dropdown-content {
-    min-width: 100px; /* Even smaller dropdown */
-  }
-}
