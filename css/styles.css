@@ -4,36 +4,27 @@ body {
   font-size: 20px;
   margin: 0;
   padding: 0;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh; /* Ensure full height for the body */
 }
 
-/* Centering Navigation */
 nav {
   padding: 1em 0;
-  display: flex; /* Use flexbox */
-  justify-content: center; /* Horizontally center the content */
-  align-items: center; /* Vertically center items if needed */
 }
 
 nav ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
-  display: flex; /* Use flexbox to arrange list items horizontally */
+  text-align: center;
 }
 
 nav ul li {
+  display: inline-block;
   margin: 0 1em;
   position: relative;
-  text-align: center; /* Ensure text is centered */
 }
 
 nav ul li a {
   text-decoration: none;
-  display: block; /* Ensure the link is a block element for consistent spacing */
-  text-align: center;
 }
 
 /* Dropdown content */
@@ -63,26 +54,20 @@ nav ul li a {
   cursor: pointer;
 }
 
-/* Container */
 .container {
-  max-width: 60%;
+  width: 50%;
   margin: 2em auto;
   text-align: left;
   padding: 1em;
   border-radius: 10px;
 }
-
-/* Image Container */
 .image-container {
   margin: 2em 0;
 }
 
-/* Centering Footer */
 footer {
   padding: 1em 0;
-  display: flex; /* Use flexbox */
-  justify-content: center; /* Horizontally center the footer items */
-  align-items: center; /* Vertically align if needed */
+  text-align: center;
   position: fixed;
   width: 100%;
   bottom: 0;
@@ -92,12 +77,9 @@ footer ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
-  display: flex; /* Arrange footer items in a row */
-  justify-content: center; /* Center footer items horizontally */
 }
 
 footer ul li {
-  display: inline-block; /* Use inline-block instead of block to keep items horizontal */
+  display: inline;
   margin: 0 1em;
-  text-align: center;
 }
