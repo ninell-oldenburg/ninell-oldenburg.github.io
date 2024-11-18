@@ -4,28 +4,35 @@ body {
   font-size: 20px;
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure full height for the body */
 }
 
+/* Centering Navigation */
 nav {
   padding: 1em 0;
-  text-align: center;
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Horizontally center the content */
+  align-items: center; /* Vertically center items if needed */
 }
 
 nav ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
-  text-align: center;
+  display: flex; /* Use flexbox to arrange list items horizontally */
 }
 
 nav ul li {
   margin: 0 1em;
   position: relative;
-  text-align: center;
+  text-align: center; /* Ensure text is centered */
 }
 
 nav ul li a {
   text-decoration: none;
+  display: block; /* Ensure the link is a block element for consistent spacing */
   text-align: center;
 }
 
@@ -56,6 +63,7 @@ nav ul li a {
   cursor: pointer;
 }
 
+/* Container */
 .container {
   max-width: 60%;
   margin: 2em auto;
@@ -64,13 +72,17 @@ nav ul li a {
   border-radius: 10px;
 }
 
+/* Image Container */
 .image-container {
   margin: 2em 0;
 }
 
+/* Centering Footer */
 footer {
   padding: 1em 0;
-  text-align: center;
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Horizontally center the footer items */
+  align-items: center; /* Vertically align if needed */
   position: fixed;
   width: 100%;
   bottom: 0;
@@ -80,11 +92,12 @@ footer ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
-  text-align: center;
+  display: flex; /* Arrange footer items in a row */
+  justify-content: center; /* Center footer items horizontally */
 }
 
 footer ul li {
-  display: block;
+  display: inline-block; /* Use inline-block instead of block to keep items horizontal */
   margin: 0 1em;
   text-align: center;
 }
