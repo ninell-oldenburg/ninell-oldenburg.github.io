@@ -6,13 +6,13 @@ body, .container, footer {
 
 /* Adjustments for the navigation menu */
 nav ul ul li {
-  display: block;
+  display: flex;
   justify-content: space-between; 
   flex-wrap: wrap; 
 }
 
 nav ul li:hover > ul {
-  display: block;
+  display: flex;
 }
 
 .container ul {
