@@ -96,7 +96,7 @@ footer ul li {
 
   nav ul li {
     display: inline-flex; /* Ensure list items stay on the same row */
-    margin: 0.5em; /* Add some space around list items */
+    margin: 0em; /* Add some space around list items */
   }
 
   /* Make container width 90% on smaller screens */
