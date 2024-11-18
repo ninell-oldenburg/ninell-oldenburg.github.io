@@ -3,6 +3,7 @@ body, .container, footer {
   background-color: #29A80E;
   color: #060500;
   display: flex;
+  flex: 1 1 auto; 
   justify-content: space-between; 
   flex-wrap: wrap; 
 }
@@ -53,8 +54,8 @@ nav ul li:hover > ul {
 
 .btn {
   display: flex;
-  font-size: inherit;
   flex: 1 1 auto; 
+  font-size: inherit;
   color: #FFDA00;
   background-color: #169a56;
   border: none;
