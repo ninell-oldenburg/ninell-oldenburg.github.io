@@ -1,237 +1,210 @@
+/* Base Styles */
 body {
     background-color: rgb(1, 56, 194);
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
-    position: absolute;
-    top: 100px;
-    left: 1050px;
     color: aliceblue;
     font-size: 80px;
+    text-align: center; /* Center the heading */
 }
 
-.bullshit {
-    position: absolute;
-    top: 50px;
-    left: 50px;
-    width: 40%; /* Percentage of its containing element */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 10px; /* Rounded corners */
-}
-.cows {
-    position: absolute;
-    top: 350px;
-    left: 150px;
-    width: 20%; /* Percentage of its containing element */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 10px; /* Rounded corners */
-}
-.nuance {
-    position: absolute;
-    top: 800px;
-    left: 800px;
-    width: 50%; /* Percentage of its containing element */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 10px; /* Rounded corners */
-}
-.artifacts {
-    position: absolute;
-    top: 1200px;
-    left: 50px;
-    width: 45%; /* Percentage of its containing element */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 10px; /* Rounded corners */
-}
-.tasra {
-    position: absolute;
-    top: 2600px;
-    left: 700px;
-    width: 50%; /* Percentage of its containing element */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 10px; /* Rounded corners */
-}    
-.truthfulai {
-    position: absolute;
-    top: 2300px;
-    left: 150px;
-    width: 40%; /* Percentage of its containing element */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 10px; /* Rounded corners */
-}
-.conciousness {
-    position: absolute;
-    top: 2800px;
-    left: 200px;
-    width: 40%; /* Percentage of its containing element */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 10px; /* Rounded corners */
-}
-.tom {
+/* Generic Image Class */
+.bullshit, .cows, .nuance, .artifacts, .tasra, .truthfulai, 
+.conciousness, .tom, .sparks, .powerseeking, .concrete, 
+.debates, .deepproblems, .harder, .parrots, .politics, 
+.guaranteedsafeai, .compatible, .alignment, .alignmentproblem, 
+.alignmentdl, .intelligence, .machinetom, .moralrobots, .roleplay, 
+.smart, .understanding, .zombies {
     position: relative;
+    width: 40%; /* Default width */
+    height: auto;
+    border-radius: 10px;
+    margin: 20px auto; /* Center and add spacing */
+}
+
+/* Specific Adjustments for Certain Elements */
+.bullshit {
+    top: 50px;
+    left: 10%;
+}
+
+.cows {
+    top: 350px;
+    left: 20%;
+}
+
+.nuance {
+    top: 800px;
+    left: 10%;
+}
+
+.artifacts {
+    top: 1200px;
+    left: 5%;
+}
+
+.tasra {
+    top: 2600px;
+    left: 10%;
+}
+
+.truthfulai {
+    top: 2300px;
+    left: 15%;
+}
+
+.conciousness {
+    top: 2800px;
+    left: 15%;
+}
+
+.tom {
     top: 3000px;
-    left: 700px;
-    width: 40%; /* Percentage of its containing element */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 10px; /* Rounded corners */
+    left: 10%;
 }
+
 .sparks {
-    position: absolute;
     top: 3900px;
-    left: 275px;
-    width: 65%; /* Percentage of its containing element */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 10px; /* Rounded corners */
+    left: 15%;
 }
+
 .powerseeking {
-    position: absolute;
     top: 5000px;
-    left: 400px;
-    width: 55%; /* Percentage of its containing element */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 10px; /* Rounded corners */
+    left: 20%;
 }
+
 .concrete {
-    position: absolute;
     top: 5300px;
-    left: 200px;
-    width: 40%; /* Percentage of its containing element */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 10px; /* Rounded corners */
+    left: 5%;
 }
+
 .debates {
-    position: absolute;
     top: 6900px;
-    left: 800px;
-    width: 50%; /* Percentage of its containing element */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 10px; /* Rounded corners */
+    left: 10%;
 }
+
 .deepproblems {
-    position: absolute;
     top: 9000px;
-    left: 50px;
-    width: 50%; /* Percentage of its containing element */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 10px; /* Rounded corners */
+    left: 5%;
 }
+
 .harder {
-    position: absolute;
     top: 10000px;
-    left: 500px;
-    width: 50%; /* Percentage of its containing element */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 10px; /* Rounded corners */
+    left: 10%;
 }
+
 .parrots {
-    position: absolute;
     top: 12000px;
-    left: 300px;
-    width: 50%; /* Percentage of its containing element */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 10px; /* Rounded corners */
+    left: 10%;
 }
+
 .politics {
-    position: absolute;
     top: 16000px;
-    left: 750px;
-    width: 40%; /* Percentage of its containing element */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 10px; /* Rounded corners */
+    left: 10%;
 }
 
 .guaranteedsafeai {
-    position: relative;
     top: 400px;
-    left: -450px;
-    width: 20%; /* Percentage of its containing element */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 10px; /* Rounded corners */
+    left: 10%;
 }
+
 .compatible {
-    position: relative;
     top: 500px;
-    left: 800px;
-    width: 50%; /* Percentage of its containing element */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 10px; /* Rounded corners */
+    left: 10%;
 }
+
 .alignment {
-    position: relative;
     top: 80px;
-    left: 800px;
-    width: 10%; /* Percentage of its containing element */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 10px; /* Rounded corners */
+    left: 10%;
 }
+
 .alignmentproblem {
-    position: relative;
     top: 50px;
-    left: 100px;
-    width: 20%; /* Percentage of its containing element */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 10px; /* Rounded corners */
+    left: 10%;
 }
+
 .alignmentdl {
-    position: relative;
     top: 400px;
-    left: -450px;
-    width: 20%; /* Percentage of its containing element */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 10px; /* Rounded corners */
+    left: 10%;
 }
+
 .intelligence {
-    position: relative;
     top: 400px;
-    left: -450px;
-    width: 20%; /* Percentage of its containing element */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 10px; /* Rounded corners */
+    left: 10%;
 }
+
 .machinetom {
-    position: relative;
     top: 80px;
-    left: 800px;
-    width: 50%; /* Percentage of its containing element */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 10px; /* Rounded corners */
+    left: 10%;
 }
+
 .moralrobots {
-    position: relative;
     top: 400px;
-    left: -450px;
-    width: 20%; /* Percentage of its containing element */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 10px; /* Rounded corners */
+    left: 10%;
 }
+
 .roleplay {
-    position: relative;
     top: 80px;
-    left: 800px;
-    width: 50%; /* Percentage of its containing element */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 10px; /* Rounded corners */
+    left: 10%;
 }
+
 .smart {
-    position: relative;
     top: 400px;
-    left: -450px;
-    width: 20%; /* Percentage of its containing element */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 10px; /* Rounded corners */
+    left: 10%;
 }
+
 .understanding {
-    position: relative;
     top: 400px;
-    left: -450px;
-    width: 20%; /* Percentage of its containing element */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 10px; /* Rounded corners */
+    left: 10%;
 }
+
 .zombies {
-    position: relative;
     top: 80px;
-    left: 800px;
-    width: 50%; /* Percentage of its containing element */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 10px; /* Rounded corners */
+    left: 10%;
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+    /* Adjust the heading size */
+    h1 {
+        font-size: 40px; /* Smaller font size for mobile */
+    }
+
+    /* Adjust the images for smaller screens */
+    .bullshit, .cows, .nuance, .artifacts, .tasra, .truthfulai, 
+    .conciousness, .tom, .sparks, .powerseeking, .concrete, 
+    .debates, .deepproblems, .harder, .parrots, .politics, 
+    .guaranteedsafeai, .compatible, .alignment, .alignmentproblem, 
+    .alignmentdl, .intelligence, .machinetom, .moralrobots, .roleplay, 
+    .smart, .understanding, .zombies {
+        width: 80%; /* Take up more width on mobile */
+        margin: 10px auto; /* Reduce spacing */
+    }
+
+    /* Adjust specific top and left positions */
+    .bullshit, .cows, .nuance, .artifacts, .tasra, .truthfulai, 
+    .conciousness, .tom, .sparks, .powerseeking, .concrete, 
+    .debates, .deepproblems, .harder, .parrots, .politics {
+        left: 5%; /* Align elements more centrally */
+    }
+
+    .guaranteedsafeai, .compatible, .alignment, .alignmentproblem, 
+    .alignmentdl, .intelligence, .machinetom, .moralrobots, .roleplay, 
+    .smart, .understanding, .zombies {
+        left: 0; /* Adjust for centered alignment */
+    }
+
+    /* Adjust the layout of the page */
+    body {
+        padding: 10px; /* Padding for better spacing */
+    }
+
+    /* Improve the layout for smaller devices */
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
 }
