@@ -61,6 +61,7 @@ nav ul li a {
   padding: 1em;
   border-radius: 10px;
 }
+
 .image-container {
   margin: 2em 0;
 }
@@ -82,4 +83,59 @@ footer ul {
 footer ul li {
   display: inline;
   margin: 0 1em;
+}
+
+/* Responsive Styles for Mobile */
+@media (max-width: 768px) {
+  /* Stack navigation items vertically on smaller screens */
+  nav ul li {
+    display: block;
+    margin: 1em 0;
+  }
+
+  /* Make container width 90% on smaller screens */
+  .container {
+    width: 90%;
+    margin: 1em auto;
+  }
+
+  /* Make footer content stack on smaller screens */
+  footer ul li {
+    display: block;
+    margin: 0.5em 0;
+  }
+
+  /* Adjust text size for mobile screens */
+  body {
+    font-size: 18px; /* Optional: make text a bit smaller on mobile */
+  }
+
+  /* Adjust the dropdown for mobile screens */
+  .dropdown-content {
+    min-width: 120px; /* Make dropdown smaller */
+  }
+}
+
+/* Extra-small screens (below 480px) */
+@media (max-width: 480px) {
+  body {
+    font-size: 16px; /* Further reduce font size on very small screens */
+  }
+
+  /* Adjust container width for very small screens */
+  .container {
+    width: 100%;
+    margin: 0;
+    padding: 0.5em;
+  }
+
+  /* Adjust footer for very small screens */
+  footer {
+    padding: 0.5em 0;
+  }
+
+  /* Adjust dropdown content for smaller screens */
+  .dropdown-content {
+    min-width: 100px; /* Even smaller dropdown */
+  }
 }
