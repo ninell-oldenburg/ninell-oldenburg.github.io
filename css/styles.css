@@ -108,7 +108,7 @@ footer ul li {
   /* Make footer content stack on smaller screens */
   footer ul li {
     display: inline-flex;
-    margin: 0.5em 0;
+    margin: 0em 0;
   }
 
   /* Adjust text size for mobile screens */
