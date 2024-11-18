@@ -7,6 +7,8 @@ body, .container, footer {
 /* Adjustments for the navigation menu */
 nav ul ul li {
   display: block;
+  justify-content: space-between; 
+  flex-wrap: wrap; 
 }
 
 nav ul li:hover > ul {
