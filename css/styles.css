@@ -19,7 +19,7 @@ nav ul {
 
 nav ul li {
   display: inline-block;
-  margin: 0 1em;
+  margin: 0 0.05em;
   position: relative;
 }
 
