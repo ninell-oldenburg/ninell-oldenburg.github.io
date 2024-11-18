@@ -89,7 +89,7 @@ footer ul li {
 @media (max-width: 768px) {
   /* Make sure the navigation items are displayed next to each other (horizontally) */
   nav ul {
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     flex-wrap: nowrap; /* Prevent wrapping */
   }
@@ -107,7 +107,7 @@ footer ul li {
 
   /* Make footer content stack on smaller screens */
   footer ul li {
-    display: block;
+    display: inline-flex;
     margin: 0.5em 0;
   }
 
