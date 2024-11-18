@@ -87,10 +87,16 @@ footer ul li {
 
 /* Responsive Styles for Mobile */
 @media (max-width: 768px) {
-  /* Stack navigation items vertically on smaller screens */
+  /* Make sure the navigation items are displayed next to each other (horizontally) */
+  nav ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap; /* Prevent wrapping */
+  }
+
   nav ul li {
-    display: block;
-    margin: 1em 0;
+    display: inline-flex; /* Ensure list items stay on the same row */
+    margin: 0.5em; /* Add some space around list items */
   }
 
   /* Make container width 90% on smaller screens */
