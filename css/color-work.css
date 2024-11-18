@@ -106,3 +106,44 @@ a:hover, .dropdown:hover {
   color: #ea1010; /* Hover link color */
   text-decoration: none;
 }
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  body, .container, footer {
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: flex-start;
+    padding: 10px; /* Add padding for better spacing */
+  }
+
+  .container ul li {
+    margin: 10px 0; /* Remove horizontal margin */
+    padding: 10px;
+  }
+
+  nav ul {
+    flex-direction: column; /* Stack navigation vertically */
+    padding-left: 0;
+    background-color: #29A80E; /* Ensure consistency */
+  }
+
+  nav ul ul li {
+    flex-direction: column; /* Stack dropdown items vertically */
+    padding: 5px 10px; /* Increase padding for tap areas */
+  }
+
+  .container ul:not(.dropdown-content) li {
+    margin: 10px 0; /* Adjust spacing for mobile */
+    font-size: 16px; /* Slightly smaller font size */
+    padding: 8px;
+  }
+
+  .btn {
+    font-size: 14px; /* Reduce font size for buttons on smaller screens */
+    padding: 4px 8px; /* Adjust button padding */
+  }
+
+  footer {
+    padding: 10px 0;
+    text-align: center;
+  }
+}
