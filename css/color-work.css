@@ -20,20 +20,21 @@
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
-/* Better button styling */
+/* Better button styling - consistent size and on separate line */
 .btn {
     display: inline-block;
-    font-size: 0.9em;
+    font-size: 0.85em;
     color: #FFDA00;
     background-color: #169a56;
     border: 1px solid #19a65d;
-    padding: 6px 12px;
-    margin: 4px 3px;
+    padding: 8px 18px;
+    margin: 2px 4px;
     border-radius: 5px;
     text-align: center;
     text-decoration: none;
     transition: all 0.2s ease;
     font-weight: 500;
+    min-width: 85px;
 }
 
 .btn:hover {
@@ -41,6 +42,17 @@
     color: #FFDA00;
     transform: translateY(-2px);
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Add line break before first button to push them all to next line */
+.container ul:not(.dropdown-content) li a.btn:first-of-type {
+    margin-left: 0;
+    margin-top: 10px;
+}
+
+.container ul:not(.dropdown-content) li a.btn:first-of-type::before {
+    content: "\A";
+    white-space: pre;
 }
 
 /* Year headings - subtle dividers */
@@ -78,11 +90,6 @@
 
 .container ul:not(.dropdown-content) li i {
     color: #034a0d;
-}
-
-/* Group buttons together nicely */
-.container ul:not(.dropdown-content) li a.btn:first-of-type {
-    margin-left: 8px;
 }
 
 /* Responsive adjustments */
