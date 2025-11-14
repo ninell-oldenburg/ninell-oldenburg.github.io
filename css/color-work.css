@@ -1,146 +1,130 @@
-/* Color Styles for Page 2 */
-body, .container, footer {
-  background-color: #29A80E;
-  color: #060500;
-  display: block;
+/* Enhanced styles for work page publication boxes */
+
+/* Override and enhance the existing list item styles */
+.container ul:not(.dropdown-content) li {
+    font-size: 17px;
+    margin-bottom: 15px;
+    padding: 15px 20px;
+    margin: 15px 40px;
+    background-color: #4BBE31;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+    border-left: 4px solid #29A80E;
+    transition: all 0.3s ease;
+    line-height: 1.7;
 }
 
-nav ul ul li {
-  display: block;
+.container ul:not(.dropdown-content) li:hover {
+    background-color: #5CD641;
+    transform: translateX(3px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
-nav ul li:hover > ul {
-  display: block;
-}
-
-.container ul {
-  list-style-type: none; /* Remove default list styles */
-  padding-left: 0; /* Remove default padding */
-}
-
-.container ul li {
-  margin-bottom: 10px; /* Add space between list items */
-  padding: 10px; /* Add padding to list items */
-  background-color: #FFFFFF; /* White background for list items */
-  border-radius: 5px; /* Rounded corners */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow */
-}
-
-.container ul li a {
-  color: #086c17; /* Link color */
-  text-decoration: none; /* Remove underline */
-  display: inline-block; /* Make links behave like buttons */
-  padding: 5px 10px; /* Padding for links */
-  border: 1px solid #058844; /* Border for links */
-  border-radius: 3px; /* Rounded corners for links */
-  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
-}
-
-.container ul li a:hover {
-  background-color: #169a56; /* Hover background color */
-  color: #FFFFFF; /* Hover text color */
-}
-
+/* Better button styling */
 .btn {
-  display: inline-block;
-  font-size: inherit;
-  color: #FFDA00;
-  background-color: #169a56;
-  border: none;
-  padding: 2px 4px; /* Adding padding for button-like appearance */
-  border-radius: 5px; /* Rounded corners */
-  text-align: center;
-  text-decoration: none;
-  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    display: inline-block;
+    font-size: 0.9em;
+    color: #FFDA00;
+    background-color: #169a56;
+    border: 1px solid #19a65d;
+    padding: 6px 12px;
+    margin: 4px 3px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    font-weight: 500;
 }
 
 .btn:hover {
-  background-color: #0056b3; /* Change hover color */
+    background-color: #0056b3;
+    color: #FFDA00;
+    transform: translateY(-2px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Additional CSS styles for list items */
-.container ul:not(.dropdown-content) li {
-  font-size: 17px;
-  margin-bottom: 10px; /* Add space between list items */
-  padding: 10px; /* Add padding to list items */
-  margin: 10px 40px;
-  background-color: #4BBE31; /* Darker background for list items */
-  border-radius: 5px; /* Rounded corners */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow */
+/* Year headings - subtle dividers */
+.container h2 {
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: #29A80E;
+    padding: 8px 40px;
+    border-radius: 5px;
+    border-left: 5px solid #FFDA00;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.container ul:not(.dropdown-content) li a {
-  color: #FFDA00; /* Link color */
-  text-decoration: none; /* Remove underline */
-  display: inline-block; /* Make links behave like buttons */
-  padding: 2px 6px; /* Padding for links */
-  margin: 1px;
-  border: 1px solid #19a65d; /* Border for links */
-  border-radius: 3px; /* Rounded corners for links */
-  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+/* Section headings */
+.container h1 {
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    color: #060500;
+    font-size: 2rem;
+    font-weight: 700;
+    padding-left: 40px;
 }
 
-.container ul:not(.dropdown-content) li a:hover {
-  background-color: #0056b3; /* Hover background color */
-  color: #ea1010; /* Hover text color */
+.container h1:first-child {
+    margin-top: 1rem;
 }
 
-a, a:visited, a:active {
-  color: #FFDA00; /* Normal link color */
-  text-decoration: none;
+/* Better text spacing within list items */
+.container ul:not(.dropdown-content) li b {
+    color: #060500;
 }
 
-a:hover, .dropdown:hover {
-  color: #ea1010; /* Hover link color */
-  text-decoration: none;
+.container ul:not(.dropdown-content) li i {
+    color: #034a0d;
 }
 
-/* Responsive Design for Mobile */
+/* Group buttons together nicely */
+.container ul:not(.dropdown-content) li a.btn:first-of-type {
+    margin-left: 8px;
+}
+
+/* Responsive adjustments */
 @media (max-width: 768px) {
-  .container {
-    margin: 1em auto; /* Ensure it's centered */
-    padding: 1em;
-  }
-
-  .container ul li {
-    margin: 10px 0; /* Adjust margin to prevent excessive space between items */
-    padding: 10px;
-  }
-
-  .container ul li a {
-    padding: 10px 20px; /* Adjust padding for mobile view */
-    font-size: 16px; /* Optional: Adjust font size for mobile */
-  }
-
-  footer ul {
-    display: inline-flex;
-    justify-content: center; /* Ensure footer items are aligned horizontally */
-    padding: 0;
-    margin: 0;
-  }
-
-  footer ul li {
-    margin: 0 1em; /* Ensure footer items have spacing */
-  }
-
-  .btn {
-    padding: 12px; /* Adjust padding for mobile size */
-    font-size: 16px; /* Optional: Adjust font size for mobile */
-  }
+    .container ul:not(.dropdown-content) li {
+        margin: 15px 20px;
+        padding: 12px 15px;
+    }
+    
+    .container h1,
+    .container h2 {
+        padding-left: 20px;
+    }
+    
+    .btn {
+        padding: 8px 12px;
+        font-size: 0.85em;
+        margin: 3px 2px;
+    }
 }
 
 @media (max-width: 480px) {
-  .container {
-    width: 100%; /* Use the full width of the screen for containers */
-    padding: 0.5em; /* Reduce padding for small screens */
-  }
-
-  footer {
-    padding: 0.5em 0;
-  }
-  
-  .btn {
-    padding: 14px; /* Optional: Increase padding for larger button size */
-    font-size: 18px; /* Optional: Increase font size for better readability */
-  }
+    .container ul:not(.dropdown-content) li {
+        margin: 10px 10px;
+        padding: 10px 12px;
+        font-size: 15px;
+    }
+    
+    .container h1 {
+        padding-left: 10px;
+        font-size: 1.6rem;
+    }
+    
+    .container h2 {
+        padding-left: 10px;
+        font-size: 1.3rem;
+    }
+    
+    .btn {
+        display: inline-block;
+        margin: 3px 2px;
+        padding: 6px 10px;
+        font-size: 0.8em;
+    }
 }
