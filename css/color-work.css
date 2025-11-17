@@ -72,7 +72,7 @@ nav ul li:hover > ul {
   border-radius: 8px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
   border-left: 4px solid #29A80E;
-  transition: all 0.3s ease;
+  /* Removed transition from here */
   line-height: 1.7;
 }
 
