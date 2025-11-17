@@ -101,14 +101,13 @@ nav ul li:hover > ul {
 
 /* Year headings */
 .container h2 {
-  margin-top: 2.5rem;
+  margin-top: 1.5rem;
   margin-bottom: 1rem;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 600;
   color: #060500;
   background-color: transparent;
-  padding: 8px 40px;
-  border-left: 5px solid #4BBE31;
+  padding: 8px 20px;
 }
 
 /* Section headings */
