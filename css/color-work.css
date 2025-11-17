@@ -76,11 +76,7 @@ nav ul li:hover > ul {
   line-height: 1.7;
 }
 
-.container ul:not(.dropdown-content) li:hover {
-  background-color: #5CD641;
-  transform: translateX(3px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-}
+
 
 .container ul:not(.dropdown-content) li a {
   color: #FFDA00; /* Link color */
