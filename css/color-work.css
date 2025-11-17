@@ -1,47 +1,16 @@
-/* Enhanced styles for work page publication boxes */
-
-/* Override and enhance the existing list item styles */
-.container ul:not(.dropdown-content) li {
-    font-size: 17px;
-    margin-bottom: 15px;
-    padding: 15px 20px;
-    margin: 15px 40px;
-    background-color: #4BBE31;
-    border-radius: 8px;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
-    border-left: 4px solid #29A80E;
-    transition: all 0.3s ease;
-    line-height: 1.7;
+/* Color Styles for Page 2 */
+body, .container, footer {
+  background-color: #29A80E;
+  color: #060500;
+  display: block;
 }
 
-.container ul:not(.dropdown-content) li:hover {
-    background-color: #5CD641;
-    transform: translateX(3px);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+nav ul ul li {
+  display: block;
 }
 
-/* Better button styling - consistent size and aligned */
-.btn {
-    display: inline-block;
-    font-size: 0.85em;
-    color: #FFDA00;
-    background-color: #169a56;
-    border: 1px solid #19a65d;
-    padding: 8px 18px;
-    margin: 4px 4px 4px 0;
-    border-radius: 5px;
-    text-align: center;
-    text-decoration: none;
-    transition: all 0.2s ease;
-    font-weight: 500;
-    min-width: 90px;
-}
-
-.btn:hover {
-    background-color: #0056b3;
-    color: #FFDA00;
-    transform: translateY(-2px);
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+nav ul li:hover > ul {
+  display: block;
 }
 
 /* Year headings - subtle dividers */
@@ -81,7 +50,61 @@
     color: #034a0d;
 }
 
-/* Responsive adjustments */
+
+.btn {
+  display: inline-block;
+  font-size: inherit;
+  color: #FFDA00;
+  background-color: #169a56;
+  border: none;
+  padding: 2px 4px; /* Adding padding for button-like appearance */
+  border-radius: 5px; /* Rounded corners */
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.btn:hover {
+  background-color: #0056b3; /* Change hover color */
+}
+
+/* Additional CSS styles for list items */
+.container ul:not(.dropdown-content) li {
+  font-size: 17px;
+  margin-bottom: 10px; /* Add space between list items */
+  padding: 10px; /* Add padding to list items */
+  margin: 10px 40px;
+  background-color: #4BBE31; /* Darker background for list items */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.container ul:not(.dropdown-content) li a {
+  color: #FFDA00; /* Link color */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Make links behave like buttons */
+  padding: 2px 6px; /* Padding for links */
+  margin: 1px;
+  border: 1px solid #19a65d; /* Border for links */
+  border-radius: 3px; /* Rounded corners for links */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+.container ul:not(.dropdown-content) li a:hover {
+  background-color: #0056b3; /* Hover background color */
+  color: #ea1010; /* Hover text color */
+}
+
+a, a:visited, a:active {
+  color: #FFDA00; /* Normal link color */
+  text-decoration: none;
+}
+
+a:hover, .dropdown:hover {
+  color: #ea1010; /* Hover link color */
+  text-decoration: none;
+}
+
 @media (max-width: 768px) {
     .container ul:not(.dropdown-content) li {
         margin: 15px 20px;
