@@ -63,7 +63,6 @@ nav ul li:hover > ul {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Additional CSS styles for list items */
 .container ul:not(.dropdown-content) li {
   font-size: 17px;
   margin-bottom: 15px;
@@ -106,7 +105,6 @@ nav ul li:hover > ul {
   font-size: 1.3rem;
   font-weight: 600;
   color: #060500;
-  background-color: transparent;
   padding: 8px 20px;
 }
 
@@ -161,9 +159,7 @@ a:hover, .dropdown:hover {
   }
 
   .container h1,
-  .container h2 {
-    padding-left: 20px;
-  }
+  .container h2,
 
   footer ul {
     display: inline-flex;
