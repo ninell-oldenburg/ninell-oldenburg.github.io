@@ -50,11 +50,11 @@
     margin-bottom: 1rem;
     font-size: 1.5rem;
     font-weight: 600;
-    color: #FFFFFF;
-    background-color: #29A80E;
+    color: #060500;
+    background-color: #4BBE31;
     padding: 8px 40px;
     border-radius: 5px;
-    border-left: 5px solid #FFDA00;
+    border-left: 5px solid #29A80E;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
