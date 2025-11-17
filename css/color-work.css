@@ -68,15 +68,13 @@ nav ul li:hover > ul {
   margin-bottom: 15px;
   padding: 15px 20px;
   margin: 15px 40px;
-  background-color: #4BBE31;
+  background-color: #5CD641;
   border-radius: 8px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
   border-left: 4px solid #29A80E;
   transition: all 0.3s ease;
   line-height: 1.7;
 }
-
-
 
 .container ul:not(.dropdown-content) li a {
   color: #FFDA00; /* Link color */
