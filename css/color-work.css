@@ -1,8 +1,22 @@
+/* ------------------------------
+   GLOBAL LAYOUT
+------------------------------ */
+
 body, .container, footer {
   background-color: #29A80E;
   color: #060500;
   display: block;
 }
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* ------------------------------
+   NAVIGATION
+------------------------------ */
 
 nav ul ul li {
   display: block;
@@ -12,33 +26,61 @@ nav ul li:hover > ul {
   display: block;
 }
 
+/* ------------------------------
+   PUBLICATION LIST STYLE (NEW)
+------------------------------ */
+
+/* General list reset */
 .container ul {
-  list-style-type: none; /* Remove default list styles */
-  padding-left: 0; /* Remove default padding */
+  list-style-type: none;
+  padding-left: 0;
 }
 
-.container ul li {
-  margin-bottom: 10px; /* Add space between list items */
-  padding: 10px; /* Add padding to list items */
-  background-color: #FFFFFF; /* White background for list items */
-  border-radius: 5px; /* Rounded corners */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow */
+/* Individual publication card */
+.container ul:not(.dropdown-content) li {
+  background: #ffffff;
+  border-left: 6px solid #29A80E;
+  border-radius: 6px;
+  padding: 16px 20px;
+  margin: 20px 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.10);
+  font-size: 17px;
+  line-height: 1.7;
 }
 
-.container ul li a {
-  color: #086c17; /* Link color */
-  text-decoration: none; /* Remove underline */
-  display: inline-block; /* Make links behave like buttons */
-  padding: 5px 10px; /* Padding for links */
-  border: 1px solid #058844; /* Border for links */
-  border-radius: 3px; /* Rounded corners for links */
-  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+/* Publication Title */
+.pub-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 6px;
+  color: #060500;
+  display: block;
 }
 
-.container ul li a:hover {
-  background-color: #169a56; /* Hover background color */
-  color: #FFFFFF; /* Hover text color */
+/* Author + venue metadata */
+.pub-meta {
+  font-size: 0.97rem;
+  opacity: 0.85;
+  display: block;
+  margin-bottom: 12px;
 }
+
+/* Tag label on left (e.g., “preprint”, “AIES”) */
+.pub-tag {
+  display: inline-block;
+  background-color: #29A80E;
+  color: #ffffff;
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  margin-right: 10px;
+  text-transform: uppercase;
+}
+
+/* ------------------------------
+   BUTTONS (ABS / PDF / CODE)
+------------------------------ */
 
 .btn {
   display: inline-block;
@@ -46,12 +88,11 @@ nav ul li:hover > ul {
   color: #FFDA00;
   background-color: #169a56;
   border: 1px solid #19a65d;
-  padding: 8px 16px;
-  margin: 4px 4px 4px 0;
+  padding: 8px 14px;
+  margin: 6px 6px 0 0;
   border-radius: 5px;
-  text-align: center;
   text-decoration: none;
-  transition: all 0.2s ease;
+  transition: 0.2s ease;
   font-weight: 500;
   min-width: 90px;
 }
@@ -63,60 +104,34 @@ nav ul li:hover > ul {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
-.container ul:not(.dropdown-content) li {
-  font-size: 17px;
-  margin-bottom: 15px;
-  padding: 15px 20px;
-  margin: 15px 40px;
-  background-color: #55c63b;
-  border-radius: 8px;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
-  border-left: 4px solid #29A80E;
-  /* Removed transition from here */
-  line-height: 1.7;
-}
+/* ------------------------------
+   TITLES (H1 / H2)
+------------------------------ */
 
-.container ul:not(.dropdown-content) li a {
-  color: #FFDA00; /* Link color */
-  text-decoration: none; /* Remove underline */
-  display: inline-block; /* Make links behave like buttons */
-  padding: 2px 6px; /* Padding for links */
-  margin: 1px;
-  border: 1px solid #19a65d; /* Border for links */
-  border-radius: 3px; /* Rounded corners for links */
-  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
-}
-
-.container ul:not(.dropdown-content) li a:hover {
-  background-color: #0056b3; /* Hover background color */
-  color: #ea1010; /* Hover text color */
-}
-
-/* Year headings */
-.container h2 {
-  margin-top: 1.5rem;
-  margin-bottom: 1rem;
-  font-size: 1.3rem;
-  font-weight: 600;
-  color: #060500;
-  padding: 8px 20px;
-}
-
-/* Section headings */
 .container h1 {
-  margin-top: 3rem;
-  margin-bottom: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
   color: #060500;
   font-size: 2rem;
   font-weight: 700;
-  padding-left: 40px;
 }
 
 .container h1:first-child {
   margin-top: 1rem;
 }
 
-/* Better text styling within list items */
+/* Year heading */
+.container h2 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #060500;
+  border-bottom: 1px solid rgba(0,0,0,0.15);
+  padding-bottom: 5px;
+}
+
+/* Bold + Italic styling inside cards */
 .container ul:not(.dropdown-content) li b {
   color: #060500;
 }
@@ -125,83 +140,73 @@ nav ul li:hover > ul {
   color: #034a0d;
 }
 
+/* ------------------------------
+   LINKS
+------------------------------ */
+
 a, a:visited, a:active {
-  color: #FFDA00; /* Normal link color */
+  color: #FFDA00;
   text-decoration: none;
 }
 
 a:hover, .dropdown:hover {
-  color: #ea1010; /* Hover link color */
+  color: #ea1010;
   text-decoration: none;
 }
 
-/* Responsive Design for Mobile */
+/* ------------------------------
+   MOBILE RESPONSIVENESS
+------------------------------ */
+
 @media (max-width: 768px) {
+
   .container {
-    margin: 1em auto; /* Ensure it's centered */
     padding: 1em;
   }
 
   .container ul:not(.dropdown-content) li {
-    margin: 15px 20px;
-    padding: 12px 15px;
+    padding: 14px 16px;
   }
 
-  .container ul li a {
-    padding: 10px 20px; /* Adjust padding for mobile view */
-    font-size: 16px; /* Optional: Adjust font size for mobile */
+  .btn {
+    padding: 8px 12px;
+    margin: 4px 3px;
   }
-
-  .container h1,
-  .container h2,
 
   footer ul {
     display: inline-flex;
-    justify-content: center; /* Ensure footer items are aligned horizontally */
+    justify-content: center;
     padding: 0;
     margin: 0;
   }
 
   footer ul li {
-    margin: 0 1em; /* Ensure footer items have spacing */
-  }
-
-  .btn {
-    padding: 8px 12px;
-    font-size: 0.85em;
-    margin: 3px 2px;
+    margin: 0 1em;
   }
 }
 
 @media (max-width: 480px) {
+
   .container {
-    width: 100%; /* Use the full width of the screen for containers */
-    padding: 0.5em; /* Reduce padding for small screens */
+    width: 100%;
+    padding: 0.5em;
   }
 
   .container ul:not(.dropdown-content) li {
-    margin: 10px 10px;
     padding: 10px 12px;
-    font-size: 15px;
+    margin: 14px 0;
   }
 
   .container h1 {
-    padding-left: 10px;
     font-size: 1.6rem;
   }
 
   .container h2 {
-    padding-left: 10px;
-    font-size: 1.3rem;
+    font-size: 1.25rem;
   }
 
-  footer {
-    padding: 0.5em 0;
-  }
-  
   .btn {
     padding: 6px 10px;
-    font-size: 0.8em;
-    margin: 3px 2px;
+    font-size: 0.82em;
   }
 }
