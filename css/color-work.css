@@ -71,19 +71,20 @@ nav ul li:hover > ul {
   line-height: 1.6;
 }
 
-/* Tag label on left (e.g., "preprint", "AIES") - UPDATED */
+/* Tag label on left (e.g., "preprint", "AIES") - UPDATED to float left */
 .pub-tag {
   display: inline-block;
-  background-color: #9b4dca;
+  background-color: #169a56;
   color: #ffffff;
   padding: 4px 12px;
   border-radius: 4px;
   font-size: 0.7rem;
   font-weight: 600;
   margin-right: 12px;
-  margin-bottom: 8px;
+  margin-bottom: 0;
   text-transform: uppercase;
   letter-spacing: 0.5px;
+  vertical-align: middle;
 }
 
 /* ------------------------------
@@ -93,7 +94,7 @@ nav ul li:hover > ul {
 .btn {
   display: inline-block;
   font-size: 0.85em;
-  color: #ffffff;
+  color: #FFDA00;
   background-color: #169a56;
   border: 1px solid #169a56;
   padding: 6px 16px;
@@ -108,7 +109,7 @@ nav ul li:hover > ul {
 
 .btn:hover {
   background-color: #0d7a42;
-  color: #ffffff;
+  color: #FFDA00;
   transform: translateY(-1px);
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
 }
@@ -241,5 +242,10 @@ a:hover, .dropdown:hover {
   .btn {
     padding: 5px 10px;
     font-size: 0.75em;
+  }
+  
+  .pub-tag {
+    display: block;
+    margin-bottom: 8px;
   }
 }
