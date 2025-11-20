@@ -36,21 +36,23 @@ nav ul li:hover > ul {
   padding-left: 0;
 }
 
-/* Individual publication item - UPDATED for clean look */
+/* Individual publication item - FORCE transparent background */
 .container ul:not(.dropdown-content) li {
-  background: transparent;
-  border: none;
-  border-radius: 0;
-  padding: 20px 0;
-  margin: 0;
-  box-shadow: none;
+  background: transparent !important;
+  background-color: transparent !important;
+  border: none !important;
+  border-left: none !important;
+  border-radius: 0 !important;
+  padding: 20px 0 !important;
+  margin: 0 !important;
+  box-shadow: none !important;
   font-size: 17px;
   line-height: 1.7;
-  border-bottom: 1px solid rgba(0,0,0,0.08);
+  border-bottom: 1px solid rgba(0,0,0,0.08) !important;
 }
 
 .container ul:not(.dropdown-content) li:last-child {
-  border-bottom: none;
+  border-bottom: none !important;
 }
 
 /* Publication Title */
@@ -71,7 +73,7 @@ nav ul li:hover > ul {
   line-height: 1.6;
 }
 
-/* Tag label on left (e.g., "preprint", "AIES") - UPDATED to float left */
+/* Tag label on left (e.g., "preprint", "AIES") */
 .pub-tag {
   display: inline-block;
   background-color: #169a56;
@@ -131,7 +133,7 @@ nav ul li:hover > ul {
   margin-top: 1rem;
 }
 
-/* Year heading - UPDATED for cleaner look */
+/* Year heading */
 .container h2 {
   margin-top: 50px;
   margin-bottom: 30px;
@@ -155,7 +157,7 @@ nav ul li:hover > ul {
   line-height: 1.6;
 }
 
-/* Bold + Italic styling inside cards */
+/* Bold + Italic styling */
 .container ul:not(.dropdown-content) li b {
   color: #060500;
   font-weight: 600;
@@ -185,13 +187,12 @@ a:hover, .dropdown:hover {
 ------------------------------ */
 
 @media (max-width: 768px) {
-
   .container {
     padding: 1em;
   }
 
   .container ul:not(.dropdown-content) li {
-    padding: 16px 0;
+    padding: 16px 0 !important;
   }
 
   .btn {
@@ -221,14 +222,13 @@ a:hover, .dropdown:hover {
 }
 
 @media (max-width: 480px) {
-
   .container {
     width: 100%;
     padding: 0.5em;
   }
 
   .container ul:not(.dropdown-content) li {
-    padding: 12px 0;
+    padding: 12px 0 !important;
   }
 
   .container h1 {
